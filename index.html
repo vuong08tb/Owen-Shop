@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Owen - Thời trang nam</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		 <!-- Favicon -->
+		 <link rel="shortcut icon" type="image/x-icon" href="https://owen.vn/media/favicon/stores/1/logo_owen_file_icon.png">
+		<!-- Font -->
+		<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+		 <!-- CSS -->
+		<link rel="stylesheet" href="./style/style.css" />
+		<!-- FontAwesome -->
+		<script src="https://kit.fontawesome.com/307f2da811.js"></script>
+		<link rel="stylesheet" href="./style/fontawesome/all.css" />
+		<script src="./style/fontawesome/all.js"></script>
+		<!-- JS -->
+		<script src="./js/main.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<a href="index.html">
+				<h2 class="logo">OWEN - THỜI TRANG NAM</h2>
+			</a>
+			<div class="navMenu" id="navMenuId">
+				<a href="index.html" class="main_links">Trang chủ</a>
+				<div class="dropdown">
+					<button class="dropbtn">
+						Cửa hàng<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="./shop-male.html">Áo</a>
+						<hr/>
+						<a href="#">Quần</a>
+						<hr/>
+						<a href="#">Phụ kiện</a>
+						<hr/>
+					</div>
+				</div>
+				<a href="introduce.html" class="main_links">Giới thiệu</a>
+				<a href="news.html" class="main_links">Tin tức</a>
+				<a href="contact.html" class="main_links">Liên hệ</a>
+				<a class="icon" href="javascript:void(0);" onclick="openMenu()">
+					<i class="fas fa-bars"></i>
+				</a>
+			</div>
+		</header>
+		<div class="banner">
+			<img id="img" onclick="changeImage()" src="./img/banner.webp" alt="banner" />
+		</div>
+		<main>
+			<div class="link-namnu">
+				<div class="banner-link">
+					<a href="./shop-male.html">
+						<h3 class="link-title">Best Choice</h3>
+						<img src="./img/best-choice.jpg" alt="best-choice" />
+					</a>
+				</div>
+				<div class="banner-link">
+					<a href="./shop-male.html">
+						<h3 class="link-title">Hot Sale</h3>
+						<img src="./img/hot-sale.jpg" alt="hot-sale" />
+					</a>
+				</div>
+				<div class="banner-link">
+					<a href="./shop-male.html">
+						<h3 class="link-title">Sản Phẩm Mới</h3>
+						<img src="./img/new.jpg" alt="new" />
+					</a>
+				</div>
+			</div>
+			<div class="danh-muc-brands">
+				<div>
+					<a class="brands-link" href="#"
+						><img class="brands-image" src="./img/brand-1.png" alt="brands"
+					/></a>
+				</div>
+				<div>
+					<a class="brands-link" href="#"
+						><img class="brands-image" src="./img/brand-2.jpg" alt="brands"
+					/></a>
+				</div>
+				<div>
+					<a class="brands-link" href="#"
+						><img class="brands-image" src="./img/brand-3.jpg" alt="brands"
+					/></a>
+				</div>
+				<div>
+					<a class="brands-link" href="#"
+						><img class="brands-image" src="./img/brand-5.jpg" alt="brands"
+					/></a>
+				</div>
+				<div>
+					<a class="brands-link" href="#"
+						><img class="brands-image" src="./img/brand-4.png" alt="brands"
+					/></a>
+				</div>
+				<div>
+					<a class="brands-link" href="#"
+						><img class="brands-image" src="./img/brand-6.png" alt="brands"
+					/></a>
+				</div>
+			</div>
+			<hr />
+			<h1
+				style="text-align: center; text-transform: uppercase; margin-top: 40px"
+			>
+				Danh mục sản phẩm
+			</h1>
+			<p
+				style="
+					width: 75%;
+					text-align: center;
+					margin: auto;
+					font-size: 13pt;
+					color: gray;
+					margin-bottom: 50px;
+					margin-top: 10px;
+				"
+			>
+			Sản phẩm thời trang nam cao cấp hàng đầu Việt Nam. Thiết kế tinh tế, mang đến sự lịch lãm và mạnh mẽ.
+			</p>
+			<div class="list_link">
+				<ul class="link_content">
+					<a href="#">
+						<li class="link_hover" style="color: black">KHÁM PHÁ</li>
+					</a>
+					<a href="#">
+						<li class="link_hover">XU HƯỚNG</li>
+					</a>
+					<a href="#">
+						<li class="link_hover">SẢN PHẨM MỚI</li>
+					</a>
+					<a href="#">
+						<li class="link_hover">BÁN CHẠY NHẤT</li>
+					</a>
+				</ul>
+			</div>
+			<div class="img_content">
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/product/product-1.jpg" alt="sp" />
+						<p class="img_name">Polo 7APCT023DEN</p>
+					</a>
+					<p class="img_price">425.000 VND</p>
+				</div>
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/product/product-2.jpg" alt="" />
+						<p class="img_name">Jean Aristino</p>
+					</a>
+
+					<p class="img_price">950.000 VND</p>
+				</div>
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/product/product-3.jpg" alt="" />
+						<p class="img_name">MLB New York Yankees Heroes</p>
+					</a>
+					<p class="img_price">890.000 VND</p>
+				</div>
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/product/product-4.jpg" alt="" />
+						<p class="img_name">Gucci GG0184O 001</p>
+					</a>
+					<p class="img_price">730.000 VND</p>
+				</div>
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/product/product-5.jpg" alt="" />
+						<p class="img_name">Kaki 6QKKB004GHS</p>
+					</a>
+					<p class="img_price">495.000 VND</p>
+				</div>
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/product/product-6.jpg" alt="" />
+						<p class="img_name">Polo Coolmax 7APCT002NAV</p>
+					</a>
+					<p class="img_price">560.000 VND</p>
+				</div>
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/product/product-7.jpg" alt="" />
+						<p class="img_name">High OG UNC University</p>
+					</a>
+					<p class="img_price">280.000 VND</p>
+				</div>
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/product/product-8.jpg" alt="" />
+						<p class="img_name">Acmé De La Vie ADLV</p>
+					</a>
+					<p class="img_price">360.000 VND</p>
+				</div>
+				<div class="img_content_link">
+					<a href="product-detail.html">
+						<img src="img/product/product-9.jpg" alt="" />
+						<p class="img_name">Burberry Black With Logo Mermaid</p>
+					</a>
+					<p class="img_price">1.460.000 VND</p>
+				</div>
+			</div>
+			<div class="application">
+				<p class="application_text">#INSTAGRAM</p>
+				<p class="application_describe">
+					Over the past few years, Korea has risen to become one of the most significant cultural superpowers in the world. 
+                        Largely off the back of the increasing popularity of the Hallyu Wave,
+                         Korean culture has taken the world by storm.
+				</p>
+				<div class="application_link">
+					<div class="app-img-container">
+						<a href="">
+							<img
+								class="application_img"
+								src="img/insta/insta-1.jpg"
+								alt="dd"
+							/>
+						</a>
+					</div>
+					<div class="app-img-container">
+						<a href="">
+							<img
+								class="application_img"
+								src="img/insta/insta-2.jpg"
+								alt="dd"
+							/>
+						</a>
+					</div>
+					<div class="app-img-container">
+						<a href="">
+							<img
+								class="application_img"
+								src="img/insta/insta-3.jpg"
+								alt="dd"
+							/>
+						</a>
+					</div>
+					<div class="app-img-container">
+						<a href="">
+							<img
+								class="application_img"
+								src="img/insta/insta-4.jpg"
+								alt="dd"
+							/>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="information">
+				<div class="">
+					<img
+						class="information_img"
+						src="http://mauweb.monamedia.net/movic/wp-content/uploads/2020/04/truck.svg"
+						alt=""
+					/>
+					<p style="color: #737373; font-size: 1 rem; font-weight: 600">
+						MIỄN PHÍ VẬN CHUYỂN VÀ ĐỔI TRẢ
+					</p>
+					<p style="color: #777e7e; font-size: 0.8rem">Voucher FREESHIP đơn từ 0đ</p>
+				</div>
+				<div>
+					<img
+						class="information_img"
+						src="http://mauweb.monamedia.net/movic/wp-content/uploads/2020/04/dollar.svg"
+						alt=""
+					/>
+					<p style="color: #737373; font-size: 1 rem; font-weight: 600">
+						ĐẢM BẢO HOÀN TIỀN
+					</p>
+					<p style="color: #777e7e; font-size: 0.8rem">
+						trong 15 ngày
+					</p>
+				</div>
+
+				<div>
+					<img
+						class="information_img"
+						src="http://mauweb.monamedia.net/movic/wp-content/uploads/2020/04/lock.svg"
+						alt=""
+					/>
+					<p style="color: #737373; font-size: 1rem; font-weight: 600">
+						THANH TOÁN ĐA DẠNG
+					</p>
+					<p style="color: #777e7e; font-size: 0.8 rem">
+						Tất cả các khoản thanh toán được bảo đảm
+					</p>
+				</div>
+				<div>
+					<img
+						class="information_img"
+						src=" http://mauweb.monamedia.net/movic/wp-content/uploads/2020/04/headphones.svg"
+						alt=""
+					/>
+					<p style="color: #737373; font-size: 1rem; font-weight: 600">
+						HỖ TRỢ 24/24
+					</p>
+					<p style="color: #777e7e; font-size: 0.8 rem">
+						Tư vấn khách hàng mọi lúc.
+					</p>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div style="line-height: 30px">
+				<p style="margin: 0px 0px 10px 0px" class="footer_text">LIÊN HỆ VỚI CHÚNG TÔI</p>
+				<p style="color: #a9a9a6">
+					Hotline: 1900 8079<br>
+                    8:30 - 21:00 tất cả các ngày trong tuần.
+				</p>
+				<p style="margin: 20px 0px 10px 0px" class="footer_text">CÔNG TY CỔ PHẦN KOWIL VIỆT NAM</p>
+				<p style="color: #a9a9a6">
+					VP Phía Bắc: Tầng 17 tòa nhà Viwaseen, 48 Phố Tố Hữu, Trung Văn.<br />
+					VP Phía Nam: 186A Nam Kỳ Khởi Nghĩa, Phường Võ Thị Sáu
+				</p>
+			</div>
+			<div>
+				<p class="footer_text">GIỚI THIỆU</p>
+				<nav style="line-height: 40px">
+					<a href="">Hệ thống cửa hàng</a><br />
+					<a href="">Về chúng tôi</a><br />
+					<a href="">Thương hiệu hợp tác</a><br />
+					<a href="">Liên hệ</a><br />
+					<a href="">Điều khoản</a>
+				</nav>
+			</div>
+			<div>
+				<p class="footer_text">HỖ TRỢ</p>
+				<nav style="line-height: 40px">
+					<a href="">Hỏi đáp</a><br />
+					<a href="">Hướng dẫn thanh toán</a><br />
+					<a href="">Quy đổi kích cỡ</a><br />
+					<a href="">Hướng dẫn mua hàng</a><br />
+					<a href="">Hướng dẫn đổi trả</a>
+				</nav>
+			</div>
+			<div>
+				<p class="footer_text">CHÍNH SÁCH</p>
+				<p style="line-height: 40px; color: #a9a9a6">
+					<a href="">Chính sách ưu đãi</a><br />
+					<a href="">Chính sách bảo mật</a><br />
+					<a href="">Chính sách vận chuyển</a><br />
+					<a href="">Chính sách đổi trả</a>
+				</p>
+			</div>
+		</footer>
+		<div class="license">Copyright © 2023
+			All rights reserved | by Kowil Fashion</div>
+	</body>
+</html>

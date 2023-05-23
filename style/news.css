@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.blog {
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.blog_img {
+    margin-left: 12px;
+}
+
+ img {
+    width: 300px;
+}
+
+.blog-title {
+    color: #323232;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.blog-des {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.blog-more {
+    font-size: 14px;
+    font-weight: 700;
+    color: #c9ae63;
+}

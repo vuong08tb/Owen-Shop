@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Owen - Thời trang nam</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		 <!-- Favicon -->
+		 <link rel="shortcut icon" type="image/x-icon" href="https://owen.vn/media/favicon/stores/1/logo_owen_file_icon.png">
+		<!-- Font -->
+		<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+		 <!-- CSS -->
+		<link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/introduce.css">
+    <link rel="stylesheet" href="./style/news.css">
+		<!-- FontAwesome -->
+		<script src="https://kit.fontawesome.com/307f2da811.js"></script>
+		<link rel="stylesheet" href="./style/fontawesome/all.css" />
+		<script src="./style/fontawesome/all.js"></script>
+		<!-- JS -->
+		<script src="./js/main.js"></script>
+	</head>
+  <body>
+		<header>
+			<a href="index.html">
+				<h2 class="logo">OWEN - THỜI TRANG NAM</h2>
+			</a>
+			<div class="navMenu" id="navMenuId">
+				<a href="index.html" class="main_links">Trang chủ</a>
+				<div class="dropdown">
+					<button class="dropbtn">
+						Cửa hàng<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="./shop-male.html">Áo</a>
+						<hr/>
+						<a href="#">Quần</a>
+						<hr/>
+						<a href="#">Phụ kiện</a>
+						<hr/>
+					</div>
+				</div>
+				<a href="introduce.html" class="main_links">Giới thiệu</a>
+				<a href="news.html" class="main_links">Tin tức</a>
+				<a href="contact.html" class="main_links">Liên hệ</a>
+				<a class="icon" href="javascript:void(0);" onclick="openMenu()">
+					<i class="fas fa-bars"></i>
+				</a>
+			</div>
+		</header>
+    <div class="banner">
+      <img id="img" onclick="changeImage()" src="./img/banner.webp" alt="banner" />
+    </div>
+    <main>
+      <div>
+        <p style="
+          font-weight: 600;
+          font-size: 1.4rem;
+          color: #000;
+          margin: 50px 0 30px 0;
+          text-align: center;">
+          TIN TỨC MỚI</p>
+          <div class="container">
+			<div class="blog">
+				<img src="img/blog-1.webp" alt="aa">
+				<div class="blog_img">
+				  <a class="blog-title" href="">CHƯƠNG TRÌNH ƯU ĐÃI BST OWEN x RENU</a>
+				  <p class="blog-des">16 tháng 5, 2023</p>
+				  <a href="" class="blog-more">Đọc thêm</a>
+				</div >
+		  </div>
+		  <div class="blog">
+					<img src="img/blog-2.webp" alt="aa">
+					<div class="blog_img">
+					  <a class="blog-title" href="">CHƯƠNG TRÌNH ƯU ĐÃI BST OWEN x RENU</a>
+					  <p class="blog-des">16 tháng 5, 2023</p>
+					  <a href="" class="blog-more">Đọc thêm</a>
+					</div >
+    </div>
+</div>
+    </main>
+		<footer>
+			<div style="line-height: 30px">
+				<p style="margin: 0px 0px 10px 0px" class="footer_text">LIÊN HỆ VỚI CHÚNG TÔI</p>
+				<p style="color: #a9a9a6">
+					Hotline: 1900 8079<br>
+                    8:30 - 21:00 tất cả các ngày trong tuần.
+				</p>
+				<p style="margin: 20px 0px 10px 0px" class="footer_text">CÔNG TY CỔ PHẦN KOWIL VIỆT NAM</p>
+				<p style="color: #a9a9a6">
+					VP Phía Bắc: Tầng 17 tòa nhà Viwaseen, 48 Phố Tố Hữu, Trung Văn.<br />
+					VP Phía Nam: 186A Nam Kỳ Khởi Nghĩa, Phường Võ Thị Sáu
+				</p>
+			</div>
+			<div>
+				<p class="footer_text">GIỚI THIỆU</p>
+				<nav style="line-height: 40px">
+					<a href="">Hệ thống cửa hàng</a><br />
+					<a href="">Về chúng tôi</a><br />
+					<a href="">Thương hiệu hợp tác</a><br />
+					<a href="">Liên hệ</a><br />
+					<a href="">Điều khoản</a>
+				</nav>
+			</div>
+			<div>
+				<p class="footer_text">HỖ TRỢ</p>
+				<nav style="line-height: 40px">
+					<a href="">Hỏi đáp</a><br />
+					<a href="">Hướng dẫn thanh toán</a><br />
+					<a href="">Quy đổi kích cỡ</a><br />
+					<a href="">Hướng dẫn mua hàng</a><br />
+					<a href="">Hướng dẫn đổi trả</a>
+				</nav>
+			</div>
+			<div>
+				<p class="footer_text">CHÍNH SÁCH</p>
+				<p style="line-height: 40px; color: #a9a9a6">
+					<a href="">Chính sách ưu đãi</a><br />
+					<a href="">Chính sách bảo mật</a><br />
+					<a href="">Chính sách vận chuyển</a><br />
+					<a href="">Chính sách đổi trả</a>
+				</p>
+			</div>
+		</footer>
+		<div class="license">Copyright © 2023
+			All rights reserved | by Kowil Fashion</div>
+  </body>
+</html>

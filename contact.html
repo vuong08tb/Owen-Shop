@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Owen - Thời trang nam</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		 <!-- Favicon -->
+		 <link rel="shortcut icon" type="image/x-icon" href="https://owen.vn/media/favicon/stores/1/logo_owen_file_icon.png">
+		<!-- Font -->
+		<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+		 <!-- CSS -->
+		<link rel="stylesheet" href="./style/style.css" />
+		<link rel="stylesheet" href="./style/product-detail.css">
+		<!-- FontAwesome -->
+		<script src="https://kit.fontawesome.com/307f2da811.js"></script>
+		<link rel="stylesheet" href="./style/fontawesome/all.css" />
+		<script src="./style/fontawesome/all.js"></script>
+		<!-- JS -->
+		<script src="./js/main.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="index.html">
+				<h2 class="logo">OWEN - THỜI TRANG NAM</h2>
+			</a>
+			<div class="navMenu" id="navMenuId">
+				<a href="index.html" class="main_links">Trang chủ</a>
+				<div class="dropdown">
+					<button class="dropbtn">
+						Cửa hàng<i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+						<a href="./shop-male.html">Áo</a>
+						<hr/>
+						<a href="#">Quần</a>
+						<hr/>
+						<a href="#">Phụ kiện</a>
+						<hr/>
+					</div>
+				</div>
+				<a href="introduce.html" class="main_links">Giới thiệu</a>
+				<a href="news.html" class="main_links">Tin tức</a>
+				<a href="contact.html" class="main_links">Liên hệ</a>
+				<a class="icon" href="javascript:void(0);" onclick="openMenu()">
+					<i class="fas fa-bars"></i>
+				</a>
+			</div>
+		</header>
+		<main>
+			<section class="clearfix first-section">
+				<div class="left-content">
+					<div class="searchBoxContainer">
+						<form action="" class="search-box">
+							<input
+								class="search-box-input"
+								placeholder="Tìm kiếm..."
+								type="text"
+								name=""
+								id=""
+							/>
+							<button class="search-box-submit" type="submit">
+								<i class="fas fa-search"></i>
+							</button>
+						</form>
+					</div>
+					<div class="left-list" id="cateList">
+						<div class="list-title">Danh mục sản phẩm</div>
+						<div class="list-content">
+							<a href="#">Quần</a>
+							<a href="./shop-male.html">Áo</a>
+							<a href="#">Phụ kiện</a>
+						</div>
+					</div>
+					<div class="left-list" id="prodList">
+						<div class="list-title">Sản phẩm</div>
+						<div class="list-content">
+							<a href="product-detail.html">
+								<div>
+									<img src="./img/product/product-1.jpg" alt="" />
+									<div>
+										<h4 class="product-title">Polo 7APCT023DEN</h4>
+										<p class="product-price">425.000 VND</p>
+									</div>
+								</div>
+							</a>
+							<a href="product-detail.html">
+								<div>
+									<img src="./img/product/product-2.jpg" alt="" />
+									<div>
+										<h4 class="product-title">Jean Aristino</h4>
+										<p class="product-price">950.000 VND</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="left-list" id="newsList">
+						<div class="list-title">Bài viết mới</div>
+						<div class="list-content">
+							<a href="#">
+								<img src="./img/insta/insta-1.jpg" alt="" />
+								<p class="news-title">
+									Bộ sưu tập thời trang xuân hè 2023
+								</p>
+							</a>
+							<a href="#">
+								<img src="./img/insta/insta-2.jpg" alt="" />
+								<p class="news-title">
+									Thời trang GenZ thịnh hành hiện nay
+								</p>
+							</a>
+							<a href="#">
+								<img src="./img/insta/insta-3.jpg" alt="" />
+								<p class="news-title">
+									Gợi ý 3 cách phối đồ công sở dành cho nam ai cũng nên biết
+								</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="right-content">
+					<div class="contact-card clearfix">
+						<img
+							src="./img/card-image.png"
+							style="object-fit: cover"
+							alt=""
+							class="card-img"
+						/>
+						<div class="card-text">
+							<br />
+							<h1>Liên hệ với chúng tôi</h1>
+							<p>Gửi một lưu ý cho chúng tôi và chúng tôi sẽ trả lời bạn nhanh nhất có thể.</p>
+							<h3>Viết cho chúng tôi</h3>
+							<form action="" class="clearfix">
+								<input
+									type="text"
+									style="margin-bottom: 10px; border-radius: 10px;"
+									name=""
+									placeholder="Tên"
+									id=""
+								/>
+								<input
+									type="text"
+									style="margin-bottom: 10px; border-radius: 10px;"
+									name=""
+									placeholder="Email"
+									id=""
+								/>
+								<textarea
+									style="border-radius: 10px;"
+									placeholder="Bạn đang nghĩ gì ?"
+									id=""
+									cols="30"
+									rows="7"
+								></textarea>
+								<button
+									type="submit"
+									style="
+										height: 40px;
+										padding: 0 20px;
+										margin-top: 10px;
+										float: right ;
+										border-radius: 10px;
+										margin-right: 50%;
+										transform: translateX(50%);
+									"
+								>
+									Gửi
+								</button>
+							</form>
+							<h3 style="text-align: center;">Hoặc kết nối</h3>
+							<ul class="follow-us">
+								<li class="facebook">
+									<a href="#"><i class="fab fa-facebook"></i></a>
+								</li>
+								<li class="google-plus">
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</li>
+								<li class="twitter">
+									<a href="#"><i class="fab fa-twitter"></i></a>
+								</li>
+								<li class="linkedin">
+									<a href="#"><i class="fab fa-linkedin-in"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div style="line-height: 30px">
+				<p style="margin: 0px 0px 10px 0px" class="footer_text">LIÊN HỆ VỚI CHÚNG TÔI</p>
+				<p style="color: #a9a9a6">
+					Hotline: 1900 8079<br>
+                    8:30 - 21:00 tất cả các ngày trong tuần.
+				</p>
+				<p style="margin: 20px 0px 10px 0px" class="footer_text">CÔNG TY CỔ PHẦN KOWIL VIỆT NAM</p>
+				<p style="color: #a9a9a6">
+					VP Phía Bắc: Tầng 17 tòa nhà Viwaseen, 48 Phố Tố Hữu, Trung Văn.<br />
+					VP Phía Nam: 186A Nam Kỳ Khởi Nghĩa, Phường Võ Thị Sáu
+				</p>
+			</div>
+			<div>
+				<p class="footer_text">GIỚI THIỆU</p>
+				<nav style="line-height: 40px">
+					<a href="">Hệ thống cửa hàng</a><br />
+					<a href="">Về chúng tôi</a><br />
+					<a href="">Thương hiệu hợp tác</a><br />
+					<a href="">Liên hệ</a><br />
+					<a href="">Điều khoản</a>
+				</nav>
+			</div>
+			<div>
+				<p class="footer_text">HỖ TRỢ</p>
+				<nav style="line-height: 40px">
+					<a href="">Hỏi đáp</a><br />
+					<a href="">Hướng dẫn thanh toán</a><br />
+					<a href="">Quy đổi kích cỡ</a><br />
+					<a href="">Hướng dẫn mua hàng</a><br />
+					<a href="">Hướng dẫn đổi trả</a>
+				</nav>
+			</div>
+			<div>
+				<p class="footer_text">CHÍNH SÁCH</p>
+				<p style="line-height: 40px; color: #a9a9a6">
+					<a href="">Chính sách ưu đãi</a><br />
+					<a href="">Chính sách bảo mật</a><br />
+					<a href="">Chính sách vận chuyển</a><br />
+					<a href="">Chính sách đổi trả</a>
+				</p>
+			</div>
+		</footer>
+		<div class="license">Copyright © 2023
+			All rights reserved | by Kowil Fashion</div>
+	</body>
+</html>
